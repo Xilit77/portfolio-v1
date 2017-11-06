@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS base de 12 colonnes de 60px et margin de 10px en % */
+.fond-12col {
+	margin: 0 auto;
+	background-color: #ffffff;
+	background-image: url('../images/12col60px.gif');
+	background-position: top center;
+	background-repeat: repeat;
+	background-size: 100%;
+	width: auto;
+	}
+.col50{
+	clear: none;
+	width: 50%;
+}
+.col1 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 6.25%; /*  60 / 960px = 0,0625000000 */
+	}
+.col2 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 14.58333333%; /*  140px / 960px = 0.1458333333 */
+	}
+.col3 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 22.91666667%; /* 220px / 960px = 0,2291666667 */
+	}
+.col4 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 31.25000000%; /* 300px / 960px = 0.3125000000 */
+	}
+.col5 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 39.58333333%; /* 380px / 960px = 0.3958333333 */
+	}
+.col6 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 47.91666667%; /* 460px / 960px = 0.4791666667 */
+	}
+.col7 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 56.25%; /* 540px / 960px = 0,5625000000 */
+	}
+.col8 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 64.58333333%; /* 620px / 960px = 0,6458333333 */
+	}
+.col9 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 72.91666667%; /* 700px / 960px = 0.7291666667 */
+	}
+.col10 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 81.25%; /* 780px / 960px = 0.8125000000 */
+	}
+.col11 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 89.58333333%; /* 860px / 960px = 0.8958333333 */
+	}
+.col12 {
+	margin-left: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	margin-right: 1.04166666666667%; /*  10 / 960px = 0.0104166666666667 */
+	width: 97.91666667%; /* 940px / 960px = 0.9791666667 */
+	}
+/*
+Margin-left des Repousse colonnes vierges :
+=> somme des width des colonnes présentes à gauche + leurs 2 margin + 1 margin-left de notre colonne
+*/
+.repousse-col1, .marge-c1 {
+	margin-left: 9.375%!important;
+	}
+.repousse-col2, .marge-c2 {
+	margin-left: 17.70833333333%!important;
+	}
+.repousse-col3, .marge-c3 {
+	margin-left: 26.04166666667%!important;
+	}
+.repousse-col4, .marge-c4 {
+	margin-left: 34.375%!important;
+	}
+.repousse-col5, .marge-c5 {
+	margin-left: 42.70833333333%!important;
+	}
+.repousse-col6, .marge-c6 {
+	margin-left: 51.04166666667%!important;
+	}
+.repousse-col7, .marge-c7 {
+	margin-left: 59.375%!important;
+	}
+.repousse-col8, .marge-c8 {
+	margin-left: 67.70833333333%!important;
+	}
+.repousse-col9, .marge-c9 {
+	margin-left: 76.04166666667%!important;
+	}
+.repousse-col10, .marge-c10 {
+	margin-left: 84.375%!important;
+	}
+.repousse-col11, .marge-c11 {
+	margin-left: 92.70833333333%!important;
+	}
+.repousse-col12, .marge-c12 {
+	margin-left: 100%!important;
+	}
+
+.marge-droite, .marge-d {
+	margin-right: 1.04166666666667%;
+	}
+.marge-gauche, .marge-g {
+	margin-left: 1.04166666666667%;
+	}
+.marge-dessous, .marge-sous, .marge-bas,.marge-b {
+	margin-bottom: 15px;
+	}
+.marge-dessus, .marge-haut,.marge-h {
+	margin-top: 15px;
+	}
+.sans-marge { margin: 0; }
+.sans-marge-droite, .sans-marge-d { margin-right: 0; }
+.sans-marge-gauche, .sans-marge-g { margin-left: 0; }

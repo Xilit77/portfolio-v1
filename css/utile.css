@@ -1,0 +1,50 @@
+
+/*///////////////////////////////
+---------   COULEURS    ---------
+///////////////////////////////*/
+
+.fond-blue{
+    background-color: #151b24;
+}
+.fond-black{
+    background-color: #101015;
+}
+.fond-blanc{
+    background-color: #FFF;
+}
+.color-blue{
+    color:#151b24;
+}
+.color-black{
+    color:#101015;
+}
+.color-blue-clair{
+    color:#424254;
+}
+
+/*///////////////////////////////
+-------  CLASS PRATIQUE  -------
+///////////////////////////////*/
+
+.section100{
+    height: 100vh;
+}
+.fl-r{
+    float: right;
+}
+.fl-l{
+    float: left;
+}
+.vertical-middle{
+    line-height: 60px;
+    vertical-align: middle;
+}
+.bold{
+    font-weight: bold;
+}
+.h-33vh{
+    height: 33.33vh;
+}
+.active > .border:after{
+    width: 100%;
+}
