@@ -323,4 +323,16 @@ $(function(){
             }});
     });
 
+    //SLIDER PROJETS
+    $('#slider').nivoSlider({
+        effect:'sliceDown', /*effet de transition appliquée*/
+        animSpeed:500, /*temps de transition*/
+        pauseTime:1500,/*temps de pause*/
+        /*LeftsliceUp,sliceUpLeft,slideUpdownLeft,fold,slideUpDown,fade,random,slideInRight,slideInLeft*/
+        beforeChange:function(){},
+        afterChange:function(){},
+        slideshowEnd:function(){},
+        lastSlide:function(){},
+        afterLoad:function(){},
+    });
 });
