@@ -48,3 +48,7 @@
 .active > .border:after{
     width: 100%;
 }
+.col50{
+	clear: none;
+	width: 50%;
+}
