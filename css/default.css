@@ -24,6 +24,9 @@ Supports Thumbs: true
     height: 100%;
 	display:none;
 }
+.theme-default .nivo-caption{
+    display: none;
+}
 .theme-default .nivoSlider a {
 	border:0;
 	display:block;

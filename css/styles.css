@@ -791,11 +791,12 @@ header .bloc-menu{
     height: 100vh;
 }
 .pics-projets-title{
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 50%;
     right: 0;
     z-index: 9999;
 }
+
 /*///////////////////////////////
 -------   FOOTER   -------
 ///////////////////////////////*/
@@ -807,7 +808,11 @@ footer{
 }
 
 footer .bloc-footer{
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;

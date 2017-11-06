@@ -273,7 +273,7 @@ $(function(){
             //INFORMATIONS SUR LE PROJET
             $('#projet-competences').delay(2).stop().html('2017 | UI-UX Design - Front-end developpement');
             $('#projet-titre').delay(2).stop().html('<b class="bold">SUCCESSONFIELD, </b>La bible du Football Américain');
-            $('#projet-description').stop().html('SUCCESSONFIELD, est un site qui permet d accompagner les joueurs de Football Américain dans leurs apprentissages et leurs développements. Il a surtout pour vocation de faire GAGNER DU TEMPS aux joueurs sachant que trouver des informations sur l apprentissage de ce sport, est toujours très compliqué surtout en français.');
+            $('#projet-description').stop().html('SUCCESSONFIELD, est un site qui permet d accompagner les joueurs de Football Américain dans leurs apprentissages et leurs développements. Il a surtout pour vocation de faire GAGNER DU TEMPS aux joueurs sachant que trouver des informations sur l&rsquo;apprentissage de ce sport, est toujours très compliqué surtout en français.');
             $('#projet-client').delay(2).stop().html('<b class="color-blue-clair">ClIENT :</b> PROJET ÉTUDIANT - MJM DESIGN GRAPHIQUE');
             $('#projet-techno').delay(2).stop().html('<b class="color-blue-clair">COMPÉTENCES : </b>UI/UX DESIGN - HTML5 - CSS3 - JQUERY');
             $('#btn-more-projet').delay(2).stop().html('<a href="projets/successonfield.html" class="btn">En savoir plus <span class="box-white"></span><span class="box-white2"></span><span class="box-white3"></span></a>');
@@ -331,9 +331,65 @@ $(function(){
         pauseTime:5000,/*temps de pause*/
         /*LeftsliceUp,sliceUpLeft,slideUpdownLeft,fold,slideUpDown,fade,random,slideInRight,slideInLeft*/
         beforeChange:function(){},
-        afterChange:function(){},
+        afterChange:function(){test()},
         slideshowEnd:function(){},
         lastSlide:function(){},
         afterLoad:function(){},
     });
+
+    var nb=1;
+
+    function test(){
+        if(nb<5){
+            nb++;
+        }else{
+            nb=1;
+        }
+        switch(nb){
+            case(1):
+                $('#projet-competences').stop().html('2017 | UI-UX Design - Front-end developpement');
+                $('#projet-titre').stop().html('<b class="bold">RIVA, </b>La bible du Football Américain');
+                $('#projet-description').stop().html('RIVA, est un site qui permet d accompagner les joueurs de Football Américain dans leurs apprentissages et leurs développements. Il a surtout pour vocation de faire GAGNER DU TEMPS aux joueurs sachant que trouver des informations sur l apprentissage de ce sport, est toujours très compliqué surtout en français.');
+                $('#projet-client').stop().html('<b class="color-blue-clair">ClIENT :</b> PROJET ÉTUDIANT - MJM DESIGN GRAPHIQUE');
+                $('#projet-techno').stop().html('<b class="color-blue-clair">COMPÉTENCES : </b>UI/UX DESIGN - HTML5 - CSS3 - JQUERY');
+                $('#btn-more-projet').stop().html('<a href="projets/successonfield.html" class="btn">En savoir plus <span class="box-white"></span><span class="box-white2"></span><span class="box-white3"></span></a>');
+            break;
+            case(2):
+                $('#projet-competences').stop().html('2017 | UI-UX Design - Front-end developpement');
+                $('#projet-titre').stop().html('<b class="bold">SNCF, </b>La bible du Football Américain');
+                $('#projet-description').stop().html('SNCF, est un site qui permet d accompagner les joueurs de Football Américain dans leurs apprentissages et leurs développements. Il a surtout pour vocation de faire GAGNER DU TEMPS aux joueurs sachant que trouver des informations sur l apprentissage de ce sport, est toujours très compliqué surtout en français.');
+                $('#projet-client').stop().html('<b class="color-blue-clair">ClIENT :</b> PROJET ÉTUDIANT - MJM DESIGN GRAPHIQUE');
+                $('#projet-techno').stop().html('<b class="color-blue-clair">COMPÉTENCES : </b>UI/UX DESIGN - HTML5 - CSS3 - JQUERY');
+                $('#btn-more-projet').stop().html('<a href="projets/successonfield.html" class="btn">En savoir plus <span class="box-white"></span><span class="box-white2"></span><span class="box-white3"></span></a>');
+            break;
+            case(3):
+                $('#projet-competences').stop().html('2017 | UI-UX Design - Front-end developpement');
+                $('#projet-titre').stop().html('<b class="bold">BLA BLA, </b>La bible du Football Américain');
+                $('#projet-description').stop().html('BLA BLA 3, est un site qui permet d accompagner les joueurs de Football Américain dans leurs apprentissages et leurs développements. Il a surtout pour vocation de faire GAGNER DU TEMPS aux joueurs sachant que trouver des informations sur l apprentissage de ce sport, est toujours très compliqué surtout en français.');
+                $('#projet-client').stop().html('<b class="color-blue-clair">ClIENT :</b> PROJET ÉTUDIANT - MJM DESIGN GRAPHIQUE');
+                $('#projet-techno').stop().html('<b class="color-blue-clair">COMPÉTENCES : </b>UI/UX DESIGN - HTML5 - CSS3 - JQUERY');
+                $('#btn-more-projet').stop().html('<a href="projets/successonfield.html" class="btn">En savoir plus <span class="box-white"></span><span class="box-white2"></span><span class="box-white3"></span></a>');
+            break;
+            case(4):
+                $('#projet-competences').stop().html('2017 | UI-UX Design - Front-end developpement');
+                $('#projet-titre').stop().html('<b class="bold">BLA BLA 4, </b>La bible du Football Américain');
+                $('#projet-description').stop().html('BLA BLA 4, est un site qui permet d accompagner les joueurs de Football Américain dans leurs apprentissages et leurs développements. Il a surtout pour vocation de faire GAGNER DU TEMPS aux joueurs sachant que trouver des informations sur l apprentissage de ce sport, est toujours très compliqué surtout en français.');
+                $('#projet-client').stop().html('<b class="color-blue-clair">ClIENT :</b> PROJET ÉTUDIANT - MJM DESIGN GRAPHIQUE');
+                $('#projet-techno').stop().html('<b class="color-blue-clair">COMPÉTENCES : </b>UI/UX DESIGN - HTML5 - CSS3 - JQUERY');
+                $('#btn-more-projet').stop().html('<a href="projets/successonfield.html" class="btn">En savoir plus <span class="box-white"></span><span class="box-white2"></span><span class="box-white3"></span></a>');
+            break;
+            case(5):
+                $('#projet-competences').stop().html('2017 | UI-UX Design - Front-end developpement');
+                $('#projet-titre').stop().html('<b class="bold">BLA BLA 5, </b>La bible du Football Américain');
+                $('#projet-description').stop().html('BLA BLA 5, est un site qui permet d accompagner les joueurs de Football Américain dans leurs apprentissages et leurs développements. Il a surtout pour vocation de faire GAGNER DU TEMPS aux joueurs sachant que trouver des informations sur l apprentissage de ce sport, est toujours très compliqué surtout en français.');
+                $('#projet-client').stop().html('<b class="color-blue-clair">ClIENT :</b> PROJET ÉTUDIANT - MJM DESIGN GRAPHIQUE');
+                $('#projet-techno').stop().html('<b class="color-blue-clair">COMPÉTENCES : </b>UI/UX DESIGN - HTML5 - CSS3 - JQUERY');
+                $('#btn-more-projet').stop().html('<a href="projets/successonfield.html" class="btn">En savoir plus <span class="box-white"></span><span class="box-white2"></span><span class="box-white3"></span></a>');
+            break;
+               }
+
+        console.log(nb);
+
+    }
+
 });
